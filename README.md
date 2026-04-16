@@ -40,18 +40,18 @@ Publishing this project poses some questions, as the app processes other people'
 
 If you end up using Borscht regularly to fetch recipes from your favorite providers, I highly advise you to return to their websites and support them (through donations, buying their books, or subscribing). If you enjoy their recipes, they did a great job and deserve the credit for it.
 
-**If you are a recipe website owner and want to prevent your website from being scraped, please raise an issue in this repository.**
+> **If you are a recipe website owner and want to prevent your website from being scraped, please raise an issue in this repository.**
 
 ---
 
 ## Modules
 
-1. **[Smetana (Backend)](./backend/):** The core API services.
-2. **[Buryak (Frontend)](./frontend/):** The main client application.
-3. **[Krip (Scraper)](./scraper/):** Responsible for web scraping recipe data.
-4. **[Kapusta (Parser)](./parser/):** Parses ingredient and recipe data structures.
+1. **[Smetana (Backend)](https://github.com/borschtapp/smetana/):** The core API services.
+2. **[Buryak (Frontend)](https://github.com/borschtapp/buryak/):** The main client application.
+3. **[Krip (Scraper)](https://github.com/borschtapp/krip/):** Responsible for web scraping recipe data.
+4. **[Kapusta (Parser)](https://github.com/borschtapp/kapusta/):** Parses ingredient and recipe data structures.
 
-> **Note:** **Krip** and **Kapusta** are built as fully-fledged Go libraries and have their own CLI tools! You can import them into any Go project, or use them directly via CLI, if you just need a fast parser or scraper without the rest of the Borscht ecosystem.
+> **Krip** and **Kapusta** are built as fully-fledged Go libraries and have their own CLI tools! You can import them into any Go project, or use them directly via CLI, if you just need a fast parser or scraper without the rest of the Borscht ingredients.
 
 
 ## Getting Started
@@ -59,7 +59,7 @@ If you end up using Borscht regularly to fetch recipes from your favorite provid
 ### 1. Deploying the Backend (Smetana)
 
 To run the project, you first need to deploy the backend services. The easiest and recommended way to do this is via Docker.
-You will find [`compose.yaml`](./backend/compose.yaml) and also more detailed instructions in the [`backend/README.md`](./backend/README.md) file.
+You will find [`compose.yaml`](https://github.com/borschtapp/smetana/blob/main/compose.yaml) and also more detailed instructions in the [`backend/README.md`](https://github.com/borschtapp/smetana/blob/main/README.md) file.
 
 ### 2. Getting the Client App (Buryak)
 
