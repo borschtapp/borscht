@@ -1,0 +1,12 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/borschtapp/smetana.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/borschtapp/buryak.git
+[submodule "scraper"]
+	path = scraper
+	url = https://github.com/borschtapp/krip.git
+[submodule "parser"]
+	path = parser
+	url = https://github.com/borschtapp/kapusta.git
